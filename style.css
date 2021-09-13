@@ -1,0 +1,68 @@
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    text-shadow: 5px 8px 8px rgb(102, 101, 101);
+}
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cronometro {
+    background-color: #010922;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 60px 0;
+    border-radius: 10px;
+}
+
+.displayCronom {
+    position: relative;
+    width: 110%;
+    background: linear-gradient( +135deg, rgb(212, 213, 248), rgb(116, 156, 231));
+    left: -5%;
+    padding: 40px 0;
+    font-family: monospace;
+    color: #000;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #cecdcd;
+}
+
+.botoes {
+    width: 80%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.botoes button {
+    padding: 10px 20px;
+    background-color: #FFF;
+    color: #010922;
+    ;
+    border: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 550;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botoes button:hover {
+    background-color: rgb(221, 231, 248);
+}
